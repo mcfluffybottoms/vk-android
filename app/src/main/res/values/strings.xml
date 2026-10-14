@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">TASK03</string>
+    <string name="InputtedText" />
+    <string name="ButtonGoValue">Go</string>
+    <string name="InputDefaultValueView">Text</string>
+    <string name="StartAppTitle">ENTER YOUR TEXT:</string>
+</resources>

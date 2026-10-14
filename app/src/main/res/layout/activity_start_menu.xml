@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".StartMenu">
+
+    <TextView
+        android:id="@+id/startMenuTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="173dp"
+        android:layout_marginTop="50dp"
+        android:layout_marginEnd="180dp"
+        android:layout_marginBottom="435dp"
+        android:text="@string/StartAppTitle"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.453"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.407" />
+
+    <EditText
+        android:id="@+id/inputText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:ems="10"
+        android:inputType="text"
+        android:text="@string/InputtedText"
+        app:layout_constraintEnd_toEndOf="@id/startMenuTitle"
+        app:layout_constraintStart_toStartOf="@id/startMenuTitle"
+        app:layout_constraintTop_toBottomOf="@id/startMenuTitle" />
+
+    <Button
+        android:id="@+id/goButton2"
+        android:layout_width="wrap_content"
+        android:layout_height="0dp"
+        android:text="@string/ButtonGoValue"
+        app:layout_constraintEnd_toEndOf="@+id/startMenuTitle"
+        app:layout_constraintStart_toStartOf="@+id/startMenuTitle"
+        app:layout_constraintTop_toBottomOf="@+id/inputText" />
+
+    <Button
+        android:id="@+id/callButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Call"
+        app:layout_constraintEnd_toEndOf="@+id/startMenuTitle"
+        app:layout_constraintStart_toStartOf="@+id/startMenuTitle"
+        app:layout_constraintTop_toBottomOf="@+id/goButton2" />
+
+    <Button
+        android:id="@+id/shareButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="SHARE"
+        app:layout_constraintEnd_toEndOf="@+id/startMenuTitle"
+        app:layout_constraintStart_toStartOf="@+id/startMenuTitle"
+        app:layout_constraintTop_toBottomOf="@+id/callButton" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
