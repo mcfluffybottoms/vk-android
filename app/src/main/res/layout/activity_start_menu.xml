@@ -44,4 +44,22 @@
         app:layout_constraintStart_toStartOf="@+id/startMenuTitle"
         app:layout_constraintTop_toBottomOf="@+id/inputText" />
 
+    <Button
+        android:id="@+id/callButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Call"
+        app:layout_constraintEnd_toEndOf="@+id/startMenuTitle"
+        app:layout_constraintStart_toStartOf="@+id/startMenuTitle"
+        app:layout_constraintTop_toBottomOf="@+id/goButton2" />
+
+    <Button
+        android:id="@+id/shareButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="SHARE"
+        app:layout_constraintEnd_toEndOf="@+id/startMenuTitle"
+        app:layout_constraintStart_toStartOf="@+id/startMenuTitle"
+        app:layout_constraintTop_toBottomOf="@+id/callButton" />
+
 </androidx.constraintlayout.widget.ConstraintLayout>
